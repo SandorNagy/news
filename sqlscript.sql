@@ -12,10 +12,11 @@ CREATE TABLE IF NOT EXISTS `user` (
 );
 
 CREATE TABLE IF NOT EXISTS `news` (
-  `id` int NOT NULL AUTO_INCREMENT,     
+  `id` int NOT NULL AUTO_INCREMENT,
+  `num` int NOT NULL,   
   `title` varchar(120) NOT NULL,     
   `url` varchar(255) NOT NULL,
-  `image` blob NOT NULL,
+  `image` longtext NOT NULL,
   `publishedAt` date,
   `introText` varchar(250) NOT NULL,
   `mainText` text NOT NULL,
@@ -24,4 +25,3 @@ CREATE TABLE IF NOT EXISTS `news` (
 );
 
 INSERT INTO `user`(`username`, `password`) VALUES ('admin','$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK');
-
