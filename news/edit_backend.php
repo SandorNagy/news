@@ -37,7 +37,7 @@ if($_POST){
     $sql = $conn->query($sql);
 	
     if($sql){
-      header('location: /news/edit.php');
+      header('location: /news/list.php');
       exit();
     }else{  
       header('location: /news/index.php');

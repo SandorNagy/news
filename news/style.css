@@ -1,0 +1,75 @@
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.news-box .box-title {
+    font-weight: 700;
+    font-size: 24;
+}
+
+.news-box .box-header {
+    text-align: center;
+}
+
+.news-box .box-content p {
+    text-align: justify;
+}
+
+.news-box .box-content .date {
+    font-style: italic;
+}
+
+.news-box {
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+}
+
+.table tbody tr td.center{
+    text-align: center;
+}
+
+button.btn-outline-info {
+    float: right;
+}
+
+.input-group-text {
+    width: 110px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    cursor: pointer;
+  }
+  
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+ }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.arrow-icons {
+    display: table-caption;
+}
+
+.news-list tbody tr:first-child td .up {
+    display: none;
+}
+
+.news-list tbody tr:last-child td .down {
+    display: none;
+}

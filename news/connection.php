@@ -7,7 +7,7 @@ $sql_database="proba_kdavid";
 
 function connect_db() {
     global $sql_host, $sql_username, $sql_password, $sql_database;
-    $conn=new mysqli($sql_host,$sql_username,$sql_password);
+    $conn = new mysqli($sql_host,$sql_username,$sql_password);
 
     if(mysqli_connect_error($conn) !== null) {
         return false;

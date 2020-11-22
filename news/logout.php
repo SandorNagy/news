@@ -1,9 +1,9 @@
 <?php
   
-session_start(); //to ensure you are using same session
+session_start();
 if(isset($_SESSION['username']) ){
-    session_destroy(); //destroy the session
-    header("location: /news/index.php"); //to redirect back to "index.php" after logging out
+    session_destroy();
+    header("location: /news/index.php");
     exit();
 }else{
     echo "You are not authorized to view this page. Go back <a href= '/news/index.php'>home</a>";
