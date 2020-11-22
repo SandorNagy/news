@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 22, 2020 at 08:19 PM
+-- Generation Time: Nov 22, 2020 at 08:24 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -75,16 +75,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`) VALUES
-(1, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(2, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(3, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(4, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(5, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(6, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(7, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(8, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(9, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK'),
-(10, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK');
+(1, 'admin', '$2y$10$hFK5W7mDJk5r95HoncFtzePjRYRGbARuy5kBrK9UmdVhB5uAalATK');
 
 --
 -- Indexes for dumped tables
